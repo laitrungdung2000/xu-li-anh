@@ -1,0 +1,593 @@
+{
+    "images": [
+        {
+            "file_name": "0069E16CF2747E441D5B77px.jpg",
+            "height": 1440,
+            "width": 1080,
+            "id": 0
+        },
+        {
+            "file_name": "02F3FF76EF8B4A0487724Apx.jpg",
+            "height": 552,
+            "width": 414,
+            "id": 1
+        },
+        {
+            "file_name": "11977842814_a9a2840ea4_n.jpg",
+            "height": 320,
+            "width": 320,
+            "id": 2
+        },
+        {
+            "file_name": "20180901_fde8d0ed25142b951c6752a8ec15533a_1535785726.jpg",
+            "height": 768,
+            "width": 1024,
+            "id": 3
+        },
+        {
+            "file_name": "4629018246_6d02f467d2_b.jpg",
+            "height": 1024,
+            "width": 768,
+            "id": 4
+        },
+        {
+            "file_name": "5315577_PPT2EU78mTo5fjPylwGTd6zV5LGJg_Boixc3mTbpkb0.jpg",
+            "height": 600,
+            "width": 600,
+            "id": 5
+        },
+        {
+            "file_name": "7413148164_d076880ca9_z.jpg",
+            "height": 612,
+            "width": 612,
+            "id": 6
+        },
+        {
+            "file_name": "82720200_Npn1rC98ntbFRY4iCbMh77X2CdVB6qG7g9rffOup9Jg.jpg",
+            "height": 600,
+            "width": 600,
+            "id": 7
+        },
+        {
+            "file_name": "MY-1.jpg",
+            "height": 1200,
+            "width": 900,
+            "id": 8
+        },
+        {
+            "file_name": "ahd1587565189.jpg",
+            "height": 966,
+            "width": 800,
+            "id": 9
+        },
+        {
+            "file_name": "design-d13e01c0-6149-11ea-abff-45d22d4e7614.png.jpg",
+            "height": 500,
+            "width": 234,
+            "id": 10
+        },
+        {
+            "file_name": "foody-starbucks-coffee-cach-mang-thang-8-872-636613068819370112.jpg",
+            "height": 1000,
+            "width": 750,
+            "id": 11
+        },
+        {
+            "file_name": "foody-starbucks-coffee-emart-770-637424142441802093.jpg",
+            "height": 1066,
+            "width": 800,
+            "id": 12
+        },
+        {
+            "file_name": "foody-starbucks-coffee-emart-824-636709468565014333.jpg",
+            "height": 1000,
+            "width": 750,
+            "id": 13
+        },
+        {
+            "file_name": "foody-starbucks-coffee-hong-ha-185-636531903042643660.jpg",
+            "height": 1000,
+            "width": 750,
+            "id": 14
+        },
+        {
+            "file_name": "foody-starbucks-coffee-hong-ha-556-636531903047019002.jpg",
+            "height": 1000,
+            "width": 750,
+            "id": 15
+        },
+        {
+            "file_name": "foody-starbucks-coffee-vincom-center-pham-ngoc-thach-806-637149667363353262.jpg",
+            "height": 1067,
+            "width": 800,
+            "id": 16
+        },
+        {
+            "file_name": "foody-starbucks-coffee-vincom-metropolis-273-637149661912249378.jpg",
+            "height": 1067,
+            "width": 800,
+            "id": 17
+        },
+        {
+            "file_name": "foody-starbucks-coffee-vincom-tran-duy-hung-817-637602242059655404.jpg",
+            "height": 1067,
+            "width": 800,
+            "id": 18
+        },
+        {
+            "file_name": "foody-starbucks-pham-hong-thai-276-636284985023186431.jpg",
+            "height": 1920,
+            "width": 1440,
+            "id": 19
+        },
+        {
+            "file_name": "foody-starbucks-pham-hong-thai-476-636685878908418799.jpg",
+            "height": 1001,
+            "width": 750,
+            "id": 20
+        },
+        {
+            "file_name": "hdp1587599972.jpg",
+            "height": 966,
+            "width": 800,
+            "id": 21
+        },
+        {
+            "file_name": "joz1587565148.jpg",
+            "height": 966,
+            "width": 800,
+            "id": 22
+        },
+        {
+            "file_name": "look-at-the-receipt-for.jpg",
+            "height": 450,
+            "width": 338,
+            "id": 23
+        },
+        {
+            "file_name": "starbucks-coffee_rotated_90.jpg",
+            "height": 450,
+            "width": 338,
+            "id": 24
+        },
+        {
+            "file_name": "starbucks.jpg",
+            "height": 450,
+            "width": 337,
+            "id": 25
+        },
+        {
+            "file_name": "stock-photo-kuala-lumpur-malaysia-july-hand-holding-starbucks-receipt-of-drinks-at-starbucks-cafe-1445887610.jpg",
+            "height": 1600,
+            "width": 1125,
+            "id": 26
+        },
+        {
+            "file_name": "this-is-my-receipt-on.jpg",
+            "height": 450,
+            "width": 338,
+            "id": 27
+        },
+        {
+            "file_name": "zvz1587612439.jpg",
+            "height": 966,
+            "width": 800,
+            "id": 28
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "Defect",
+            "id": 1,
+            "name": "starbuck"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 0,
+            "bbox": [
+                124.0,
+                74.5,
+                154.0,
+                137.0
+            ],
+            "area": 21098,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "bbox": [
+                53.0,
+                60.5,
+                78.0,
+                53.0
+            ],
+            "area": 4134,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 3,
+            "image_id": 2,
+            "bbox": [
+                53.5,
+                8.5,
+                53.0,
+                47.0
+            ],
+            "area": 2491,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 4,
+            "image_id": 3,
+            "bbox": [
+                79.5,
+                315.5,
+                113.0,
+                143.0
+            ],
+            "area": 16159,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 5,
+            "image_id": 4,
+            "bbox": [
+                327.0,
+                151.5,
+                72.0,
+                49.0
+            ],
+            "area": 3528,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 6,
+            "image_id": 5,
+            "bbox": [
+                184.5,
+                29.5,
+                63.0,
+                61.0
+            ],
+            "area": 3843,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 7,
+            "image_id": 6,
+            "bbox": [
+                91.5,
+                25.5,
+                81.0,
+                75.0
+            ],
+            "area": 6075,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 8,
+            "image_id": 7,
+            "bbox": [
+                255.5,
+                1.0,
+                115.0,
+                70.0
+            ],
+            "area": 8050,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 9,
+            "image_id": 8,
+            "bbox": [
+                142.0,
+                141.5,
+                146.0,
+                117.0
+            ],
+            "area": 17082,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 10,
+            "image_id": 9,
+            "bbox": [
+                366.5,
+                162.0,
+                117.0,
+                116.0
+            ],
+            "area": 13572,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 11,
+            "image_id": 10,
+            "bbox": [
+                74.5,
+                73.0,
+                67.0,
+                70.0
+            ],
+            "area": 4690,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 12,
+            "image_id": 11,
+            "bbox": [
+                369.5,
+                80.5,
+                117.0,
+                89.0
+            ],
+            "area": 10413,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 13,
+            "image_id": 12,
+            "bbox": [
+                290.0,
+                116.0,
+                216.0,
+                210.0
+            ],
+            "area": 45360,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 14,
+            "image_id": 13,
+            "bbox": [
+                328.5,
+                120.0,
+                123.0,
+                58.0
+            ],
+            "area": 7134,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 15,
+            "image_id": 14,
+            "bbox": [
+                297.0,
+                29.5,
+                120.0,
+                113.0
+            ],
+            "area": 13560,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 16,
+            "image_id": 15,
+            "bbox": [
+                247.0,
+                35.5,
+                138.0,
+                127.0
+            ],
+            "area": 17526,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 17,
+            "image_id": 16,
+            "bbox": [
+                375.0,
+                83.5,
+                122.0,
+                77.0
+            ],
+            "area": 9394,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 18,
+            "image_id": 17,
+            "bbox": [
+                400.0,
+                110.5,
+                134.0,
+                145.0
+            ],
+            "area": 19430,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 19,
+            "image_id": 18,
+            "bbox": [
+                363.5,
+                35.5,
+                61.0,
+                51.0
+            ],
+            "area": 3111,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 20,
+            "image_id": 19,
+            "bbox": [
+                497.0,
+                31.5,
+                288.0,
+                245.0
+            ],
+            "area": 70560,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 21,
+            "image_id": 20,
+            "bbox": [
+                259.5,
+                52.0,
+                153.0,
+                76.0
+            ],
+            "area": 11628,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 22,
+            "image_id": 21,
+            "bbox": [
+                350.5,
+                136.0,
+                115.0,
+                108.0
+            ],
+            "area": 12420,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 23,
+            "image_id": 22,
+            "bbox": [
+                349.0,
+                124.0,
+                102.0,
+                90.0
+            ],
+            "area": 9180,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 24,
+            "image_id": 23,
+            "bbox": [
+                122.5,
+                48.5,
+                65.0,
+                53.0
+            ],
+            "area": 3445,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 25,
+            "image_id": 24,
+            "bbox": [
+                62.0,
+                22.5,
+                48.0,
+                41.0
+            ],
+            "area": 1968,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 26,
+            "image_id": 25,
+            "bbox": [
+                130.5,
+                0.5,
+                69.0,
+                45.0
+            ],
+            "area": 3105,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 27,
+            "image_id": 26,
+            "bbox": [
+                340.0,
+                403.5,
+                92.0,
+                85.0
+            ],
+            "area": 7820,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 28,
+            "image_id": 27,
+            "bbox": [
+                78.0,
+                26.5,
+                46.0,
+                49.0
+            ],
+            "area": 2254,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        },
+        {
+            "id": 29,
+            "image_id": 28,
+            "bbox": [
+                314.0,
+                92.0,
+                108.0,
+                90.0
+            ],
+            "area": 9720,
+            "iscrowd": 0,
+            "category_id": 16,
+            "segmentation": []
+        }
+    ]
+}
