@@ -875,13 +875,13 @@ epochs = 1
 # Running 100 training and 50 validation steps,
 # remove `.take` when training on the full dataset
 
-model.fit(
-    train_dataset.take(100),
-    validation_data=val_dataset.take(50),
-    epochs=epochs,
-    callbacks=callbacks_list,
-    verbose=1,
-)
+# model.fit(
+#     train_dataset.take(100),
+#     validation_data=val_dataset.take(50),
+#     epochs=epochs,
+#     callbacks=callbacks_list,
+#     verbose=1,
+# )
 
 """
 ## Loading weights
