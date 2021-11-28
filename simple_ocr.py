@@ -22,15 +22,19 @@ class HoadonOCR:
         img = tf.expand_dims(img, 0)
         img = transform_images(img, 416)
         boxes, scores, classes, nums = self.model(img)
-        for i in range(nums[0]):
-        #     logging.info('\t{}, {}, {}'.format(self.class_names[int(classes[0][i])],
-        #                                        np.array(scores[0][i]),
-        #                                        np.array(boxes[0][i])))
-        # print("classes: ", self.class_names[int(classes[0][i])])
-            print(i)
-        #     if self.class_names[int(classes[0][i])] == 'starbuck':
-        #         return "starbucks"
-        #     else :
-        #         return "others"
-        # if classes == '':
-        #     classes = "others"
+        if nums:
+            for i in range(nums[0]):
+            #     logging.info('\t{}, {}, {}'.format(self.class_names[int(classes[0][i])],
+            #                                        np.array(scores[0][i]),
+            #                                        np.array(boxes[0][i])))
+            # print("classes: ", self.class_names[int(classes[0][i])])
+                print(self.class_names[int(classes[0][i])])
+                return self.class_names[int(classes[0][i])]
+            #     if self.class_names[int(classes[0][i])] == 'starbuck':
+            #         return "starbucks"
+            #     else :
+            #         return "others"
+            # if classes == '':
+            #     classes = "others
+        else:
+            return "others"
