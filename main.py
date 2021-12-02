@@ -30,11 +30,18 @@ if __name__ == "__main__":
     cnt_predict = 0
 
     start_time = time.time()
+    count = 0
     for filename in list_files:
-        # img = cv2.imread(os.path.join(input_folder, filename))
-        # print(img.shape)
+        count = count + 1
+        img = cv2.imread(os.path.join(input_folder, filename))
+        print(img.shape)
+        height, width, channels = img.shape
+        img_crop = img[0:int(height / 2), 0:width]
+        cv2.imwrite('output/' + str(count) + '.jpg', img_crop)
         img = tf.image.decode_image(
-            open(os.path.join(input_folder, filename), 'rb').read(), channels=3)
+            # open(os.path.join(input_folder, filename), 'rb').read(), channels=3)
+            open(os.path.join('output/', str(count) + '.jpg'), 'rb').read(), channels = 3)
+
         try:
             label = model.find_label(img)
             print("Label detected: ", label)
