@@ -36,14 +36,14 @@ if __name__ == "__main__":
         img = cv2.imread(os.path.join(input_folder, filename))
         print(img.shape)
         height, width, channels = img.shape
-        img_crop = img[0:int(height / 2), 0:width]
-        cv2.imwrite('output/' + str(count) + '.jpg', img_crop)
+        img_crop = img[0:int(height/2), 0:width]
+        cv2.imwrite('sampledata-crop/' + str(count) + '.jpg', img_crop)
         img = tf.image.decode_image(
             # open(os.path.join(input_folder, filename), 'rb').read(), channels=3)
-            open(os.path.join('output/', str(count) + '.jpg'), 'rb').read(), channels = 3)
+            open(os.path.join('sampledata-crop/', str(count) + '.jpg'), 'rb').read(), channels = 3)
 
         try:
-            label = model.find_label(img)
+            label = model.find_label(img, count)
             print("Label detected: ", label)
         except:
             label = -1
