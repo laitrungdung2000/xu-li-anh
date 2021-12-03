@@ -213,9 +213,9 @@ def yolo_nms(outputs, anchors, masks, classes):
         boxes=bbox,
         scores=scores,
         max_output_size=100,
-        iou_threshold=0.2,
-        score_threshold=0.2,
-        soft_nms_sigma=0.2
+        iou_threshold=0.01,
+        score_threshold=0.01,
+        soft_nms_sigma=0.01
     )
 
     num_valid_nms_boxes = tf.shape(selected_indices)[0]
