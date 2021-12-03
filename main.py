@@ -34,7 +34,7 @@ if __name__ == "__main__":
     for filename in list_files:
         count = count + 1
         img = cv2.imread(os.path.join(input_folder, filename))
-        print(img.shape)
+        # print(img.shape)
         height, width, channels = img.shape
         img_crop = img[0:int(height/2), 0:width]
         cv2.imwrite('sampledata-crop/' + str(count) + '.jpg', img_crop)
@@ -44,14 +44,13 @@ if __name__ == "__main__":
 
         try:
             label = model.find_label(img, count)
-            print("Label detected: ", label)
         except:
             label = -1
-
+        print("Label detected: ", label)
+        print("True label:", img_to_label[filename])
         if img_to_label[filename] == label:
             cnt_predict += 1
         elif label == -1:
-            print(filename)
             fail_process += 1
 
     run_time = time.time() - start_time

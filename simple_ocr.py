@@ -30,8 +30,12 @@ class HoadonOCR:
             img = draw_outputs(img, (boxes, scores, classes, nums), self.class_names)
             cv2.imwrite('output/' + str(count) + '.jpg', img)
             for i in range(nums[0]):
-                print(self.class_names[int(classes[0][i])])
-                return self.class_names[int(classes[0][i])]
+                print(np.array(scores[0][i]))
+                label = self.class_names[int(classes[0][i])]
+                if label != "highlands" and np.array(scores[0][i]) < 0.01:
+                    return "others"
+                else:
+                    return label
         else:
             img = cv2.cvtColor(img1.numpy(), cv2.COLOR_RGB2BGR)
             img = draw_outputs(img, (boxes, scores, classes, nums), self.class_names)
