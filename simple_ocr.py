@@ -25,10 +25,10 @@ class HoadonOCR:
         img = tf.expand_dims(img1, 0)
         img = transform_images(img, 416)
         boxes, scores, classes, nums = self.model(img)
+        img = cv2.cvtColor(img1.numpy(), cv2.COLOR_RGB2BGR)
+        img = draw_outputs(img, (boxes, scores, classes, nums), self.class_names)
+        cv2.imwrite('output/' + str(count) + '.jpg', img)
         if nums:
-            img = cv2.cvtColor(img1.numpy(), cv2.COLOR_RGB2BGR)
-            img = draw_outputs(img, (boxes, scores, classes, nums), self.class_names)
-            cv2.imwrite('output/' + str(count) + '.jpg', img)
             for i in range(nums[0]):
                 print(np.array(scores[0][i]))
                 label = self.class_names[int(classes[0][i])]
@@ -37,7 +37,4 @@ class HoadonOCR:
                 else:
                     return label
         else:
-            img = cv2.cvtColor(img1.numpy(), cv2.COLOR_RGB2BGR)
-            img = draw_outputs(img, (boxes, scores, classes, nums), self.class_names)
-            cv2.imwrite('output/' + str(count) + '.jpg', img)
             return "others"
